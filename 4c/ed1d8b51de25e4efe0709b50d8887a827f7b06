@@ -1,0 +1,27 @@
+.github/workflows/ci.yml
+  s_eb0b26e52cc031::t_e8cf5906f24a24 1-15
+.gitignore
+  s_eb0b26e52cc031::t_6b9b9a07a05882 1-4
+README.md
+  s_eb0b26e52cc031::t_7563a81ecb0202 1-24
+ROADMAP.md
+  s_eb0b26e52cc031::t_04a4dd7b4dd4d0 1-24
+src/TextChunker.java
+  s_eb0b26e52cc031::t_f4fbc8e6761d82 1-17
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.15",
+  "base_commit_sha": "4ced1d8b51de25e4efe0709b50d8887a827f7b06",
+  "prompts": {},
+  "sessions": {
+    "s_eb0b26e52cc031": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a187ba-22aa-7793-8324-39d8f75719e0",
+        "model": "gpt-6-astra"
+      },
+      "human_author": "Akshay Dhangar <48667712+akshay-dhangar@users.noreply.github.com>"
+    }
+  }
+}
