@@ -11,8 +11,9 @@ Backend: Java. This seed has no live model calls, credentials, external writes, 
 ## Verify
 
 ```sh
-javac --release 17 -d build src/TextChunker.java
+javac --release 17 -d build src/*.java test/*.java
 java -cp build TextChunker
+java -cp build SourceFixtures
 ```
 
 ## One-week MVP
@@ -22,3 +23,5 @@ See [ROADMAP.md](ROADMAP.md) for seven bounded development days and acceptance c
 ## Evidence
 
 The current automated checks validate the small implemented component only. They do not establish end-to-end AI quality, scalability, or production readiness. Later demos and LinkedIn write-ups should cite measured behavior and disclosed limitations.
+
+SourceChunker attaches document ID, caller-supplied revision and title to every chunk. Citation offsets are zero-based Unicode code-point ranges with an exclusive end. The caller must change the revision when the document changes. Chunking preserves the existing overlap behavior.

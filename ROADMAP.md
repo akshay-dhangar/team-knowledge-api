@@ -2,9 +2,9 @@
 
 Goal: Build a citation-aware knowledge API for remote engineering teams.
 
-Status: queued. The initial core component is implemented; the full MVP is not.
+Status: active. The initial core component is implemented; the full MVP is not.
 
-- [ ] Day 1: Text chunking with overlap and source metadata.
+- [x] Day 1: Text chunking with overlap and source metadata.
 - [ ] Day 2: Add document ingestion and persistence.
 - [ ] Day 3: Implement lexical retrieval baseline.
 - [ ] Day 4: Add pluggable embeddings and vector retrieval.
