@@ -5,7 +5,7 @@ Goal: Build a citation-aware knowledge API for remote engineering teams.
 Status: active. The initial core component is implemented; the full MVP is not.
 
 - [x] Day 1: Text chunking with overlap and source metadata.
-- [ ] Day 2: Add document ingestion and persistence.
+- [x] Day 2: Add document ingestion and persistence.
 - [ ] Day 3: Implement lexical retrieval baseline.
 - [ ] Day 4: Add pluggable embeddings and vector retrieval.
 - [ ] Day 5: Return cited answers through an API.

@@ -25,3 +25,5 @@ See [ROADMAP.md](ROADMAP.md) for seven bounded development days and acceptance c
 The current automated checks validate the small implemented component only. They do not establish end-to-end AI quality, scalability, or production readiness. Later demos and LinkedIn write-ups should cite measured behavior and disclosed limitations.
 
 SourceChunker attaches document ID, caller-supplied revision and title to every chunk. Citation offsets are zero-based Unicode code-point ranges with an exclusive end. The caller must change the revision when the document changes. Chunking preserves the existing overlap behavior.
+
+DocumentStore.ingest accepts a source and text, persists an immutable revision and supports identical retries. Reopening the same directory restores documents through read(id, revision). IDs and revisions use 1–64 ASCII letters, digits, underscores or hyphens. Each field is limited to 65535 bytes in Java modified UTF-8. The local filesystem must support atomic moves. Use a caller-owned directory; multi-host storage and power-loss durability remain unverified. Run `java -cp build DocumentFixtures` after compilation.
