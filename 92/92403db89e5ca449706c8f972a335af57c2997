@@ -1,0 +1,29 @@
+ROADMAP.md
+  s_90026bd1685103::t_f6fa4a63df772b 8
+README.md
+  s_90026bd1685103::t_f6fa4a63df772b 28-29
+test/DocumentFixtures.java
+  s_90026bd1685103::t_f6fa4a63df772b 1-30
+.github/workflows/ci.yml
+  s_90026bd1685103::t_f6fa4a63df772b 17
+PROGRESS.md
+  s_90026bd1685103::t_f6fa4a63df772b 6-9
+src/DocumentStore.java
+  s_90026bd1685103::t_f6fa4a63df772b 1-66
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "9292403db89e5ca449706c8f972a335af57c2997",
+  "prompts": {},
+  "sessions": {
+    "s_90026bd1685103": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "01a187ba-22aa-7793-8324-39d8f75719e0",
+        "model": "unknown"
+      },
+      "human_author": "Akshay Dhangar <48667712+akshay-dhangar@users.noreply.github.com>"
+    }
+  }
+}
