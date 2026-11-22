@@ -7,3 +7,7 @@ Day 1 complete. Source metadata follows every overlapping chunk. Fixtures verify
 ## 21 November — document storage
 
 Day 2 adds local ingestion through the Java library and immutable persisted revisions. Fixtures cover Unicode restart round trips, retries, conflicting content preservation and path rejection. Next is lexical retrieval. [Java checks](https://github.com/akshay-dhangar/team-knowledge-api/actions/workflows/ci.yml)
+
+## 22 November — lexical baseline
+
+Day 3 adds deterministic distinct-term retrieval over source chunks. Fixtures verify ranking, duplicate query terms, whole-token matching, empty queries, deterministic ties and source preservation. Java checks pass locally. Next is pluggable embeddings and vector retrieval. [Java checks](https://github.com/akshay-dhangar/team-knowledge-api/actions/workflows/ci.yml)
