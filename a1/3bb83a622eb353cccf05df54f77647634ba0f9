@@ -1,0 +1,29 @@
+test/SearchFixtures.java
+  s_90026bd1685103::t_d10fb7fec8ff11 1-24
+PROGRESS.md
+  s_90026bd1685103::t_d10fb7fec8ff11 10-13
+ROADMAP.md
+  s_90026bd1685103::t_d10fb7fec8ff11 9
+README.md
+  s_90026bd1685103::t_d10fb7fec8ff11 30-31
+.github/workflows/ci.yml
+  s_90026bd1685103::t_d10fb7fec8ff11 18
+src/LexicalSearch.java
+  s_90026bd1685103::t_d10fb7fec8ff11 1-31
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "a13bb83a622eb353cccf05df54f77647634ba0f9",
+  "prompts": {},
+  "sessions": {
+    "s_90026bd1685103": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "01a187ba-22aa-7793-8324-39d8f75719e0",
+        "model": "unknown"
+      },
+      "human_author": "Akshay Dhangar <48667712+akshay-dhangar@users.noreply.github.com>"
+    }
+  }
+}
