@@ -1,0 +1,29 @@
+test/VectorFixtures.java
+  s_90026bd1685103::t_07ce72c241fc41 1-28
+PROGRESS.md
+  s_90026bd1685103::t_07ce72c241fc41 14-17
+README.md
+  s_90026bd1685103::t_07ce72c241fc41 32-33
+.github/workflows/ci.yml
+  s_90026bd1685103::t_07ce72c241fc41 19
+ROADMAP.md
+  s_90026bd1685103::t_07ce72c241fc41 10
+src/VectorSearch.java
+  s_90026bd1685103::t_07ce72c241fc41 1-48
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "90daa72831602f2c46284ee555e15dad5dfbe89a",
+  "prompts": {},
+  "sessions": {
+    "s_90026bd1685103": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "01a187ba-22aa-7793-8324-39d8f75719e0",
+        "model": "unknown"
+      },
+      "human_author": "Akshay Dhangar <48667712+akshay-dhangar@users.noreply.github.com>"
+    }
+  }
+}
