@@ -7,7 +7,7 @@ Status: active. The initial core component is implemented; the full MVP is not.
 - [x] Day 1: Text chunking with overlap and source metadata.
 - [x] Day 2: Add document ingestion and persistence.
 - [x] Day 3: Implement lexical retrieval baseline.
-- [ ] Day 4: Add pluggable embeddings and vector retrieval.
+- [x] Day 4: Add pluggable embeddings and vector retrieval.
 - [ ] Day 5: Return cited answers through an API.
 - [ ] Day 6: Test access boundaries and retrieval quality.
 - [ ] Day 7: Demonstrate a small team knowledge corpus.

@@ -16,3 +16,4 @@ jobs:
       - run: java -cp build SourceFixtures
       - run: java -cp build DocumentFixtures
       - run: java -cp build SearchFixtures
+      - run: java -cp build VectorFixtures

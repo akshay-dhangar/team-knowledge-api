@@ -11,3 +11,7 @@ Day 2 adds local ingestion through the Java library and immutable persisted revi
 ## 22 November — lexical baseline
 
 Day 3 adds deterministic distinct-term retrieval over source chunks. Fixtures verify ranking, duplicate query terms, whole-token matching, empty queries, deterministic ties and source preservation. Java checks pass locally. Next is pluggable embeddings and vector retrieval. [Java checks](https://github.com/akshay-dhangar/team-knowledge-api/actions/workflows/ci.yml)
+
+## 23 November — vector retrieval
+
+Day 4 adds pluggable embeddings and cosine ranking with preserved source chunks. Fixtures cover known rankings, very large finite coordinates, invalid vectors and dimension mismatch. Next is cited answers through an API. [Java checks](https://github.com/akshay-dhangar/team-knowledge-api/actions/workflows/ci.yml)
