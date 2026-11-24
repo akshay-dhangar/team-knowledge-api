@@ -1,0 +1,29 @@
+ROADMAP.md
+  s_90026bd1685103::t_6ef6af8e53dc7c 11
+PROGRESS.md
+  s_90026bd1685103::t_6ef6af8e53dc7c 18-21
+src/AnswerApi.java
+  s_90026bd1685103::t_6ef6af8e53dc7c 1-62
+test/AnswerFixtures.java
+  s_90026bd1685103::t_6ef6af8e53dc7c 1-30
+README.md
+  s_90026bd1685103::t_6ef6af8e53dc7c 34-35
+.github/workflows/ci.yml
+  s_90026bd1685103::t_6ef6af8e53dc7c 20
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "7ff6d1128c6b2d00b8b6377a558ba765fdcd8fd8",
+  "prompts": {},
+  "sessions": {
+    "s_90026bd1685103": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "01a187ba-22aa-7793-8324-39d8f75719e0",
+        "model": "unknown"
+      },
+      "human_author": "Akshay Dhangar <48667712+akshay-dhangar@users.noreply.github.com>"
+    }
+  }
+}
