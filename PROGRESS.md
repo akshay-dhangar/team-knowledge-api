@@ -15,3 +15,7 @@ Day 3 adds deterministic distinct-term retrieval over source chunks. Fixtures ve
 ## 23 November — vector retrieval
 
 Day 4 adds pluggable embeddings and cosine ranking with preserved source chunks. Fixtures cover known rankings, very large finite coordinates, invalid vectors and dimension mismatch. Next is cited answers through an API. [Java checks](https://github.com/akshay-dhangar/team-knowledge-api/actions/workflows/ci.yml)
+
+## 23 November — cited answer endpoint
+
+Day 5 provides a loopback HTTP endpoint over selected stored documents. Real HTTP fixtures verify exact passage citations, no-match output and oversized-query rejection. Answers are lexical extracts. Access-boundary and retrieval-quality evaluation are next. [Java checks](https://github.com/akshay-dhangar/team-knowledge-api/actions/workflows/ci.yml)
