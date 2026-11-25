@@ -9,7 +9,7 @@ Status: active. The initial core component is implemented; the full MVP is not.
 - [x] Day 3: Implement lexical retrieval baseline.
 - [x] Day 4: Add pluggable embeddings and vector retrieval.
 - [x] Day 5: Return cited answers through an API.
-- [ ] Day 6: Test access boundaries and retrieval quality.
+- [x] Day 6: Evaluate startup corpus boundaries and curated retrieval queries.
 - [ ] Day 7: Demonstrate a small team knowledge corpus.
 
 ## Definition of done
@@ -22,3 +22,5 @@ Status: active. The initial core component is implemented; the full MVP is not.
 - Real model quality is not claimed without a live evaluation.
 
 Seven days is a target. Reduce scope or record unfinished work explicitly; never mark a project complete merely because its week ended.
+
+25 November target assessment: MVP remains incomplete. The demo and LinkedIn draft carry over. Day 6 covers the startup corpus snapshot; per-user authorization remains future work. Next run packages the scoped local demo before reassessing completion.

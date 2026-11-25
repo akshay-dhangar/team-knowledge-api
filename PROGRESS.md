@@ -19,3 +19,7 @@ Day 4 adds pluggable embeddings and cosine ranking with preserved source chunks.
 ## 23 November — cited answer endpoint
 
 Day 5 provides a loopback HTTP endpoint over selected stored documents. Real HTTP fixtures verify exact passage citations, no-match output and oversized-query rejection. Answers are lexical extracts. Access-boundary and retrieval-quality evaluation are next. [Java checks](https://github.com/akshay-dhangar/team-knowledge-api/actions/workflows/ci.yml)
+
+## 25 November — corpus evaluation
+
+Five synthetic HTTP queries passed: three expected top passages and two no-match cases. The fixture verifies that a later addition to the caller list cannot expose an excluded document. Scope is startup corpus isolation; per-user access enforcement remains future work. Day 7 demo and LinkedIn draft carry over beyond the original target. [Java checks](https://github.com/akshay-dhangar/team-knowledge-api/actions/workflows/ci.yml)

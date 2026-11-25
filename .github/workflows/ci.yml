@@ -18,3 +18,4 @@ jobs:
       - run: java -cp build SearchFixtures
       - run: java -cp build VectorFixtures
       - run: java -cp build AnswerFixtures
+      - run: java -cp build CorpusEvaluation
